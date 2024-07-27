@@ -1,0 +1,239 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  font-family: 'Sarabun Regular';
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #000;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+img {
+  height: auto;
+}
+
+@font-face {
+  font-family: 'Sarabun Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sarabun Regular'), url('../fonts/Sarabun-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Sarabun Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sarabun Bold'), url('../fonts/Sarabun-Bold.woff') format('woff');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: 'Sarabun Bold';
+
+}
+
+textarea,
+p,
+div,
+span,
+li,
+button,
+a {
+  font-family: 'Sarabun Regular';
+  font-weight: 400;
+  transition: ease-in-out 1s;
+}
+
+input {
+  font-family: 'Sarabun Regular';
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-family: 'Sarabun Regular';
+}
+
+p {
+
+  line-height: 31px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1a1813;
+  font-family: 'Sarabun Regular';
+}
+
+
+span {
+  display: inline-block;
+  transition: ease-in-out 1s;
+}
+
+:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #2c2a2b;
+  font-family: 'Open Sans';
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #2c2a2b;
+  font-family: 'Open Sans';
+}
+
+::placeholder {
+  color: #2c2a2b;
+  font-family: 'Open Sans';
+}
+
+.contact-section-1 {
+  padding: 100px 0px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.logo img {
+  width: 200px;
+}
+.form-girl-image {position: relative;}
+.form-girl-image img {
+  position: absolute;
+  left: -181px;
+  top: 243px;
+}
+
+.form-box .form-control {
+  display: block;
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #a60f37;
+  background-clip: padding-box;
+  border: 1px solid #a60f37;
+}
+
+.form-box .contact-sec1-btn {
+  color: #a60f37;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  width: 100%;
+  background: none !important;
+  font-family: 'Sarabun Bold';
+}
+
+.form-box .form-control::placeholder {
+  color: #ffff;
+}
+
+
+.form-main-heading {
+  color: #a60f37;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Sarabun Bold';
+}
+
+.form-inner-heading {
+  color: #a60f37;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Sarabun Bold';
+}
+
+.form-box {
+  padding: 20px 20px 0px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.module-list {
+  padding: 8px 0px;
+
+}
+
+.module-list li {
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #000;
+  list-style: disc;
+}
+
+.join-coaching-heading {
+  color: #a60f37;
+  padding: 6px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Sarabun Bold';
+  border-top: 2px dotted #000;
+  border-bottom: 2px dotted #000;
+}
+
+.historic-heading {
+  color: #a60f37;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Sarabun Bold';
+}
+
+.better-option {
+  text-align: center;
+}
+
+.beter-btn-1 {
+  font-size: 22px;
+  padding-right: 10px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.beter-btn-2 {
+  font-size: 22px;
+  padding-left: 10px;
+  border-left: 1px solid gray;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
